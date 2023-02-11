@@ -2,7 +2,7 @@ import React from 'react';
 import "./POPOSSpace.css"
 
 function POPOSSpace(props) {
-    const { name, image, address } = props
+    const { name, image, address, hours } = props
     return (
         <div>
             <h1>{name}</h1>
@@ -12,6 +12,7 @@ function POPOSSpace(props) {
             alt="" 
             />
             <div>{address}</div>
+            <div>{hours}</div>
         </div>
     )
 }
