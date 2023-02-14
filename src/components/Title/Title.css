@@ -3,8 +3,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     padding: 1em;
     margin-bottom: 2em;
     background-color: rgb(192, 45, 26);
@@ -17,4 +15,17 @@
     flex-direction: column;
     justify-content: center;
     align-self: flex-start;
+  }
+
+  .Title a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: rgba(255, 255, 255, 0.835);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .Title .nav-link-active {
+    color: #fff;
+    border-bottom: 2px solid;
   }
