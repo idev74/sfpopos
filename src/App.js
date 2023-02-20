@@ -3,7 +3,7 @@ import Title from './components/Title/Title'
 import Footer from './components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Title />
@@ -12,5 +12,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

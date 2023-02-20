@@ -2,7 +2,7 @@ import React from 'react';
 import './POPOSSpace.css'
 import { Link } from 'react-router-dom'
 
-function POPOSSpace(props) {
+export default function POPOSSpace(props) {
     const { name, image, address, hours, id } = props
     return (
         <div className='POPOSSpace'>
@@ -24,5 +24,3 @@ function POPOSSpace(props) {
         </div>
     )
 }
-
-export default POPOSSpace
