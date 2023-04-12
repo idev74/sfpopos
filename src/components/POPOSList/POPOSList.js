@@ -22,6 +22,7 @@ export default function POPOSList() {
 
   return (
     <div className="POPOSList">
+      <div className="search">
       <form>
         <input
           value={query}
@@ -30,6 +31,7 @@ export default function POPOSList() {
         />
         <button type="submit">Search</button>
       </form>
+      </div>
       {spaces}
     </div>
   )
