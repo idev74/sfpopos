@@ -35,8 +35,11 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		
     }
+
+	.POPOSDetails .POPOSDetails-info {
+		text-align: center;
+	}
 
     .image {
         width: 100%;
@@ -49,6 +52,10 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.POPOSDetails .POPOSDetails-info {
+		text-align: center;
 	}
 
 	.POPOSDetails-image {
