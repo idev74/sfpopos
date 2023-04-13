@@ -17,3 +17,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+@media only screen and (max-width: 960px) {
+	.about img{
+    width: 80%;
+	}
+  .about p, h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about img{
+    width: 80%;
+	}
+  .about p, h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+}
