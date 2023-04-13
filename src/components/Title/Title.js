@@ -8,9 +8,18 @@ export default function Title() {
   return (
     <div className="Title">
       <header>
+        <div class="account-links">
+          <NavLink
+            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
+            to="/login">Log In</NavLink>
+          <NavLink
+            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
+            to="/signup">Sign Up</NavLink>
+        </div>
         <h1>SFPOPOS</h1>
         <div className="Title-Subtitle">San Francisco's Privately Owned Public Spaces
         </div>
+
 
         <div>
           <NavLink
@@ -19,7 +28,7 @@ export default function Title() {
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/about">About</NavLink>
-        <RandomSpace />
+          <RandomSpace />
         </div>
 
       </header >
