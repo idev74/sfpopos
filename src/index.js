@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import About from './components/About';
 import POPOSList from './components/POPOSList/POPOSList';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails';
+import LoginForm from './components/Account/Login';
+import SignUpForm from './components/Account/SignUp';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 const rootElement = document.getElementById('root');
@@ -18,6 +20,8 @@ root.render(
       <Route path="/" element={<POPOSList />} />
       <Route path="about" element={<About />} />
       <Route path="/details/:id" element={<POPOSDetails />} />
+      <Route path="/login" element={<LoginForm />} />
+      <Route path="/signup" element={<SignUpForm />} />
     </Route>
   </Routes>
 </Router>,

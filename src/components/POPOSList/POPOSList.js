@@ -21,18 +21,20 @@ export default function POPOSList() {
     })
 
   return (
-    <div className="POPOSList">
+    <div>
       <div className="search">
-      <form>
-        <input
-          value={query}
-          placeholder="search"
-          onChange={(e) => setQuery(e.target.value)}
-        />
-        <button type="submit">Search</button>
-      </form>
+        <form>
+          <input
+            value={query}
+            placeholder="search"
+            onChange={(e) => setQuery(e.target.value)}
+          />
+          <button type="submit">Search</button>
+        </form>
       </div>
-      {spaces}
+      <div className="POPOSList">
+        {spaces}
+      </div>
     </div>
   )
 }
