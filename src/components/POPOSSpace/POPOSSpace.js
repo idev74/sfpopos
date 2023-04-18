@@ -14,7 +14,7 @@ export default function POPOSSpace(props) {
             <img src={`${process.env.PUBLIC_URL}/images/${image}`} 
             width="300" 
             height="300" 
-            alt="public space" 
+            alt={`clickable view of ${name}`} 
             />
             </Link>
             <section className='POPOSSpace-info'>
