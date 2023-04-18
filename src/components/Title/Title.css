@@ -9,6 +9,11 @@
     color: #fff;
   }
 
+  .Title h1 {
+    font-size: 3rem;
+    margin: 0.2em;
+  }
+
   .Title-Subtitle {
     display: flex;
     color: rgb(255, 255, 255);
