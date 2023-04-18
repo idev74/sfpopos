@@ -10,4 +10,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### For ACS 1320 at Dominican University of California
-![Screenshot 2023-02-19 at 4 50 35 PM](https://user-images.githubusercontent.com/77900249/219986344-0b9ed5de-0af9-419f-8969-00fe17e73ef6.png)
+![Screenshot 2023-04-18 at 10 48 46 AM](https://user-images.githubusercontent.com/77900249/232861507-591267d5-e641-4544-a495-4bfbddc131f5.png)
