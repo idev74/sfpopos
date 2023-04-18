@@ -28,6 +28,7 @@ export default function POPOSList() {
             type="search"
             value={query}
             placeholder="search"
+            aria-label="search through public spaces"
             onChange={(e) => setQuery(e.target.value)}
           />
           <button type="submit">Search</button>
