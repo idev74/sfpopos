@@ -25,6 +25,7 @@ export default function POPOSList() {
       <section className="search">
         <form>
           <input
+            type="search"
             value={query}
             placeholder="search"
             onChange={(e) => setQuery(e.target.value)}

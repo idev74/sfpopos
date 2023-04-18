@@ -17,6 +17,12 @@
 	font-size: 1rem;
   }
 
+  .search button {
+	background-color: rgb(70, 124, 131);
+	color: #fff;
+	border: 1px solid rgb(14, 71, 78);
+  }
+
 @media only screen and (max-width: 960px) {
 	.POPOSList {
 		grid-template-columns: 1fr 1fr;
