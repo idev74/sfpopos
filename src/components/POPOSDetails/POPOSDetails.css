@@ -40,10 +40,6 @@
 	.POPOSDetails .POPOSDetails-info {
 		text-align: center;
 	}
-
-    .image {
-        width: 100%;
-    }
 }
 
 @media only screen and (max-width: 960px) {
@@ -56,9 +52,5 @@
 
 	.POPOSDetails .POPOSDetails-info {
 		text-align: center;
-	}
-
-	.POPOSDetails-image {
-		width: 90%
 	}
 }
