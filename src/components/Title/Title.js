@@ -6,22 +6,22 @@ import { NavLink } from 'react-router-dom';
 
 export default function Title() {
   return (
-    <div className="Title">
+    <section className="Title">
       <header>
-        <div class="account-links">
+        <section class="account-links">
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/login">Log In</NavLink>
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/signup">Sign Up</NavLink>
-        </div>
+        </section>
         <h1>SFPOPOS</h1>
-        <div className="Title-Subtitle">San Francisco's Privately Owned Public Spaces
-        </div>
+        <p className="Title-Subtitle">San Francisco's Privately Owned Public Spaces
+        </p>
 
 
-        <div>
+        <section>
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/">List</NavLink>
@@ -29,9 +29,9 @@ export default function Title() {
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/about">About</NavLink>
           <RandomSpace />
-        </div>
+        </section>
 
       </header >
-    </div>
+    </section>
   )
 }
