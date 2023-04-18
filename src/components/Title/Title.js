@@ -8,20 +8,19 @@ export default function Title() {
   return (
     <section className="Title">
       <header>
-        <section class="account-links">
+        <nav class="account-links">
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/login">Log In</NavLink>
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/signup">Sign Up</NavLink>
-        </section>
+        </nav>
         <h1>SFPOPOS</h1>
         <p className="Title-Subtitle">San Francisco's Privately Owned Public Spaces
         </p>
 
-
-        <section>
+        <nav className="page-links">
           <NavLink
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/">List</NavLink>
@@ -29,7 +28,7 @@ export default function Title() {
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
             to="/about">About</NavLink>
           <RandomSpace />
-        </section>
+        </nav>
 
       </header >
     </section>

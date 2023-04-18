@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-self: flex-start;
+    font-weight: 500;
   }
 
   .Title a {
