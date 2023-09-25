@@ -2,7 +2,7 @@
 A website made with React to showcase some of San Francisco's Privately-Owned Public Spaces (POPOS).
 
 ## Visit Here
-https://idev74.github.io/sfpopos/
+[Live!](http://www.idev.software/sfpopos/)
 
 ### `npm start`
 
